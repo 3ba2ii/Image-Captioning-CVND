@@ -1,6 +1,6 @@
 # Image Captioning
 
-This project is all about defining and training a combination of CNN and LSTM to provide a caption for the given input image, This Project uses Encoder Decoder Architecture which are ```CNN``` & ```LSTM``` respectively to train the model.
+This project is all about defining and training a combination of CNN and LSTM to provide a caption for the given input image,  Used Encoder Decoder Architecture which are ```CNN``` & ```LSTM``` respectively to train the model.
 
 <br />
 
