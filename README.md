@@ -186,13 +186,13 @@ optimizer = torch.optim.Adam(params , lr = .001)
 
 <br />
 ## Running the tests
-###### Feel free to test the code yourself by just two simple steps 
-- Define and declare the needed parameters and pass them to the Encoder and Decoder Class.
-- Load the Saved state dict which has the pre-trained model.
-- Move the Encoder and Decoder to evaluation model i.e. ```encoder.eval()```, ```decoder.eval()```
-- Select an input image to be fed it into the encoder to extract features from it ```features = encoder(image).unsqueeze(1)```
-- Use the sample method in Decoder class which creates output indicies each index corresponds to a particular word in the word ```vocabulary``` for the given image ```output = decoder.sample(features)```
-- You can convert the output vector to a real sentence using ```clean_sentence()``` Function.
+Feel free to test the code yourself by just two simple steps 
+1. Define and declare the needed parameters and pass them to the Encoder and Decoder Class.
+2. Load the Saved state dict which has the pre-trained model.
+3. Move the Encoder and Decoder to evaluation model i.e. ```encoder.eval()```, ```decoder.eval()```
+4. Select an input image to be fed it into the encoder to extract features from it ```features = encoder(image).unsqueeze(1)```
+5. Use the sample method in Decoder class which creates output indicies each index corresponds to a particular word in the word ```vocabulary``` for the given image ```output = decoder.sample(features)```
+6. You can convert the output vector to a real sentence using ```clean_sentence()``` Function.
 
 >> You can find the full test code in the notebook named ```3_inference.ipynb```
 
